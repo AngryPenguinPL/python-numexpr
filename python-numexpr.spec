@@ -3,7 +3,7 @@
 
 Summary: 	Fast numerical array expression evaluator for Python and NumPy
 Name:		python-%{module}
-Version:	2.4.6
+Version:	2.6.4
 Release:	1
 Source0:	https://pypi.python.org/packages/source/n/numexpr/numexpr-%{version}.tar.gz
 License:	MIT
@@ -11,10 +11,10 @@ Group:		Development/Python
 Url:		http://numexpr.googlecode.com/
 BuildRequires:	python-devel
 BuildRequires:	python-numpy
-BuildRequires:	python-numpy-devel >= 1.6
+BuildRequires:	python-numpy-devel >= 1.11
 BuildRequires:	pkgconfig(lapack)
 BuildRequires:  python-six
-Requires:	python-numpy >= 1.6
+Requires:	python-numpy >= 1.11
 
 %description
 The numexpr package evaluates multiple-operator array expressions many
